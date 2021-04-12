@@ -6,7 +6,7 @@
 ```
 [서비스 명]
 
-<span style="color:blue"> 무빙 Movieing</span>
+무빙 Movieing
 
 [주제]
 
