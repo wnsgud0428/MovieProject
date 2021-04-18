@@ -46,7 +46,7 @@
 2. 3월 24일 (수) 주제 구체화 및 subgroup 형성 (Online) 
 3. 3월 29일 (월) User Requirement 분석(user story style) => 개발 도구 선정 (Offline)
 4. 4월 5일 (월) Problem statement 및 User Requirement 분석, 다음 모임 때 Use Case Model에 대해 고민해보기로 하였음. (Online)
-
+5. 4월 18일 (일) Domain Model 만드는 방법에 대한 내용공유를 위해, 하나의 Use-case를 예시로 Responsibility와 Association 추출해 보았음. (Online)
 
 [참고]
 
