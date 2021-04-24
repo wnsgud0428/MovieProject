@@ -56,10 +56,11 @@
 1. 3월 22일 (월) 주제 선정 (Online)
 2. 3월 24일 (수) 주제 구체화 및 subgroup 형성 (Online) 
 3. 3월 29일 (월) User Requirement 분석(user story style) => 개발 도구 선정 (Offline)
-4. 4월 5일 (월) Problem statement 및 User Requirement 분석, 다음 모임 때 Use Case Model에 대해 고민해보기로 하였음. (Online)
+4. 4월 5일  (월) Problem statement 및 User Requirement 분석, 다음 모임 때 Use Case Model에 대해 고민해보기로 하였음. (Online)
 5. 4월 18일 (일) Domain Model 만드는 방법에 대한 내용공유를 위해, 하나의 Use-case를 예시로 Responsibility와 Association 추출해 보았음. (Online)
 6. 4월 19일 (월) 각자 만들어온 Use Case Spec에 대해 feedback을 주고받음, 다음 모임 때 각자 맡은 Use Case에 대해서 Extract the Responsibility/Association을 해 오기로 함. (Online)
 7. 4월 23일 (금) 각자 Extract the Responsibility/Association 대해 feedbaack을 주고받음, 다음 모임에 각자 맡은 Domain Model에 대해 E-C-B 모델까지 완성해오기로 함. (Online) 
+8. 4월 24일 (토) 마지막으로 만들어온 extracting attribute와 UseCase에 맞는 Domain Model을 서로 확인함. (Online) 
 
 [참고]
 
