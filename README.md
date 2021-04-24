@@ -24,16 +24,16 @@
 ### <a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/1st_checkpoint">[1차 체크 포인트 관련 문서]</a>
 ### 1. Problem Statement
  
-<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/problemstatement.pdf">- go to Problem Statement</a>
+<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/problemstatement.pdf">- Go to Problem Statement</a>
 ### 2. Gathered Requirements
-<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/requirement.pdf">- go to Gathered Requirements</a>
+<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/requirement.pdf">- Go to Gathered Requirements</a>
 
 ### 3. System Model
 
 
-<a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/1st_checkpoint/Usecase">- Use Case Model</a>
+<a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/1st_checkpoint/Usecase">- Go to Use Case Model</a>
 
-<a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/1st_checkpoint/DomainModel">- Domain Model</a>
+<a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/1st_checkpoint/DomainModel">- Go to Domain Model</a>
 
 ---
 ### 팀 소개  
