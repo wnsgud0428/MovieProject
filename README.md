@@ -48,6 +48,7 @@
 4. 4월 5일 (월) Problem statement 및 User Requirement 분석, 다음 모임 때 Use Case Model에 대해 고민해보기로 하였음. (Online)
 5. 4월 18일 (일) Domain Model 만드는 방법에 대한 내용공유를 위해, 하나의 Use-case를 예시로 Responsibility와 Association 추출해 보았음. (Online)
 6. 4월 19일 (월) 각자 만들어온 Use Case Spec에 대해 feedback을 주고받음, 다음 모임 때 각자 맡은 Use Case에 대해서 Extract the Responsibility/Association을 해 오기로 함. (Online)
+7. 4월 23일 (금) 각자 Extract the Responsibility/Association 대해 feedbaack을 주고받음, 다음 모임에 각자 맡은 Domain Model에 대해 E-C-B 모델까지 완성해오기로 함. (Online) 
 
 [참고]
 
