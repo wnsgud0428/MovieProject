@@ -19,7 +19,7 @@
  2. 영화 개인화 추천 시스템
  3. 개봉 예정 영화 성공 예측 시스템
 ```
-
+---
 ### 문서 링크
 ### <a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/1st_checkpoint">[1차 체크 포인트 관련 문서]</a>
 ### 1. Problem Statement
@@ -35,8 +35,8 @@
 
 <a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/1st_checkpoint/DomainModel">- Domain Model</a>
 
-
-#### 팀 소개  
+---
+### 팀 소개  
 
 |   이름  |  학번 |  역할 분담 | 그룹 구분 |
 |---------|------|------------|---------------|
@@ -48,7 +48,7 @@
 |  이찬영 | 20171006|개봉 예정 영화 성공 예측 시스템|Subgroup 3
 
 
-
+---
 ### 기타 사항 기록
 ```
 [Team meeting record]
@@ -69,7 +69,7 @@
 2. Movie Success Prediction Using Data Mining 
 [https://nevonprojects.com/movie-success-prediction-using-data-mining/]
 ``` 
-
+---
 ### 라이센스
 
 MIT LICENSE
