@@ -24,9 +24,9 @@
 ### <a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/1st_checkpoint">[1차 체크 포인트 관련 문서]</a>
 ### 1. Problem Statement
  
-<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/problemstatement.pdf">[link]</a>
+<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/problemstatement.pdf">- go to Problem Statement</a>
 ### 2. Gathered Requirements
-<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/requirement.pdf">[link]</a>
+<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/requirement.pdf">- go to Gathered Requirements</a>
 
 ### 3. System Model
 
