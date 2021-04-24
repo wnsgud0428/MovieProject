@@ -22,7 +22,7 @@
 
 #### 문서 링크
 <a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/problemstatement.pdf">1. Problem Statement</a>
-
+<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/requirement.pdf">2. Requirements </a>
 
 
 #### 팀 소개  
