@@ -1,7 +1,7 @@
-### [소프트웨어공학 1분반]
+## [소프트웨어공학 1분반]
 ---
 
-#### 프로젝트 내용
+### 프로젝트 내용
 
 ```
 [서비스 명]
@@ -20,14 +20,15 @@
  3. 개봉 예정 영화 성공 예측 시스템
 ```
 
-#### 문서 링크
-<a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/1st_checkpoint">[1차 체크 포인트 관련 문서]</a>
+### 문서 링크
+### <a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/1st_checkpoint">[1차 체크 포인트 관련 문서]</a>
+### 1. Problem Statement
+ 
+<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/problemstatement.pdf">[link]</a>
+### 2. Gathered Requirements
+<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/requirement.pdf">[link]</a>
 
-<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/problemstatement.pdf">1. Problem Statement</a>
-
-<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/1st_checkpoint/requirement.pdf">2. Gathered Requirements </a>
-
-3. System Model
+### 3. System Model
 
 
 <a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/1st_checkpoint/Usecase">- Use Case Model</a>
@@ -48,7 +49,7 @@
 
 
 
-#### 기타 사항 기록
+### 기타 사항 기록
 ```
 [Team meeting record]
 
@@ -69,6 +70,6 @@
 [https://nevonprojects.com/movie-success-prediction-using-data-mining/]
 ``` 
 
-#### 라이센스
+### 라이센스
 
 MIT LICENSE
