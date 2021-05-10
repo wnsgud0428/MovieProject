@@ -61,7 +61,7 @@
 6. 4월 19일 (월) 각자 만들어온 Use Case Spec에 대해 feedback을 주고받음, 다음 모임 때 각자 맡은 Use Case에 대해서 Extract the Responsibility/Association을 해 오기로 함. (Online)
 7. 4월 23일 (금) 각자 Extract the Responsibility/Association 대해 feedbaack을 주고받음, 다음 모임에 각자 맡은 Domain Model에 대해 E-C-B 모델까지 완성해오기로 함. (Online) 
 8. 4월 24일 (토) 마지막으로 만들어온 extracting attribute와 UseCase에 맞는 Domain Model을 서로 확인함. (Online) 
-9. 5월 7일  (금) Sequence Diagram을 만들기 전 use case 7을 Seq.Diagram을 다같이 만들어 보면서 개념을 익힘. (Online)
+9. 5월 7일  (금) Sequence Diagram을 만들기 전, use case 7에 대하여 Seq.Diagram을 다같이 만들어 보면서 개념을 익힘. (Online)
 
 [참고]
 
