@@ -72,6 +72,7 @@
 9. 5월 7일  (금) Sequence Diagram을 만들기 전, use case 7에 대하여 Seq.Diagram을 다같이 만들어 보면서 개념을 익힘. (Online)
 10. 5월 10일 (월) 각자 Sequence Diagram에 대해 feedback을 주고받음, 다음 모임에 각자 맡은 class diagram을 완성해오기로 함. (Online)
 11. 5월 12일 (수) 각자 만들어온 class diagram을 서로 피드백함. (Online)
+12. 5월 14일 (금) 체크포인트 2 마무리, Sequence Diagram, Class Diagram 최종 업로드. (Online)
 
 
 ---
