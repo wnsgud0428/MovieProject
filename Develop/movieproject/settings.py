@@ -25,7 +25,7 @@ SECRET_KEY = '6oe$q%=@d!^u^d4tr0&+*ti6g7jcx-a5g@8hnr8+01dhy2&=pj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0']
 
 
 # Application definition
@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users.apps.UsersConfig',
-    'movies.apps.MoviesConfig'
+    'movies.apps.MoviesConfig',
+    'evaluates.apps.EvaluatesConfig'
 ]
 
 MIDDLEWARE = [
@@ -80,7 +81,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
-}
+} 
+
 
 
 # Password validation
