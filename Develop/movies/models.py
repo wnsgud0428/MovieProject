@@ -1,5 +1,5 @@
 from django.db import models
-import jsonfield
+
 # Create your models here.
 class MovieModel(models.Model):
     created = models.DateTimeField(auto_now_add=True)
