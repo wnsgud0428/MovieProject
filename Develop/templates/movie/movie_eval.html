@@ -1,7 +1,35 @@
+<h2>
+영화 평가하기!
+</h2>
+
 <form action="/" method="post" enctype="multipart/form-data">
     {% csrf_token %}
-    {% for field in form %}
-        <div>{{field.label}} {{field}}</div>
+    {% for movie in movies %}
+
+        <div>
+            <h4>
+                {{movie.title}}
+            </h4>
+
+                <input type="hidden" value={{movie.id}} name="id"/>
+                <div>
+                    <span>{{form}}</span>
+                    
+   
+                </div>
+
+        </div>
     {% endfor %}
     <input type="submit" value="OK">
 </form>
+
+<h2>
+영화 추천하기!
+</h2>
+
+{% for rec in recommend %}
+    <div>
+        {{rec.title}}
+    </div>
+
+{% endfor %}
