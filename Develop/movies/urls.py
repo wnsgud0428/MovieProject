@@ -17,9 +17,10 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import url
 from django.conf import settings
+from . import views as movie_view
+
+app_name = "movies"
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('user/', include("users.urls", namespace="users")),
-    path('', include("movies.urls", namespace="movies"))
+    path('', movie_view.MovieEvalView.as_view(), name="evaluate-form")
 ]
