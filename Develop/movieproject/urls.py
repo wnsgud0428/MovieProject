@@ -17,8 +17,10 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import url
 from django.conf import settings
+from users import views as users_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('user/', include("users.urls", namespace="users"))
+    path('users/', include("users.urls", namespace="users")),
+    path('', users_views.index, name="index"),
 ]

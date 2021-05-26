@@ -1,0 +1,11 @@
+{% extends "home.html" %}
+{% block content %}
+{% if user.is_authenticated %}
+<p>
+    <a class="mov-recommend" href="">영화 추천</a>
+</p>
+<p>
+    <a class="mov-predict" href="">영화 예측</a>
+</p>
+{% endif %}
+{% endblock %}
