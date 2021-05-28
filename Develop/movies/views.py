@@ -5,6 +5,7 @@ from . import models
 import random
 from django.shortcuts import render, redirect, reverse
 from evaluates import models as eval_model
+
 # Create your views here.
 
 class MovieEvalView(FormView):
@@ -48,10 +49,13 @@ class MovieEvalView(FormView):
         form_class = forms.MovieEvalForm
         movie_model = models.MovieModel.objects.all()
 
-        Eval_model = eval_model.Evaluate.objects.get(user="youhoseong")
-        eval_keyword_list = Eval_model.keyword.split(' ')
-        recommend_list = models.MovieModel.objects.filter(keyword__in = eval_keyword_list)
-        print(recommend_list)
-
-        random_items = random.sample(list(movie_model),10)
-        return render(request, "movie/movie_eval.html", {"movies": random_items, "form": form_class, "eval": Eval_model, "recommend": recommend_list})
+        try:
+            Eval_model = eval_model.Evaluate.objects.get(user="youhoseong")
+            eval_keyword_list = Eval_model.keyword.split(' ')
+            recommend_list = models.MovieModel.objects.filter(keyword__in = eval_keyword_list)
+            print(recommend_list)
+            random_items = random.sample(list(movie_model),10)
+            return render(request, "movie/movie_eval.html", {"movies": random_items, "form": form_class, "eval": Eval_model, "recommend": recommend_list})
+        except:
+            random_items = random.sample(list(movie_model),10)
+            return render(request, "movie/movie_eval.html", {"movies": random_items, "form": form_class})
