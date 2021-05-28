@@ -22,5 +22,7 @@ from . import views as movie_view
 app_name = "movies"
 
 urlpatterns = [
-    path('', movie_view.MovieEvalView.as_view(), name="evaluate-form")
+    path('eval', movie_view.MovieEvalView.as_view(), name="evaluate"),
+    path('', movie_view.HomeView.as_view(), name="home"),
+    path('recommend', movie_view.MovieRecView.as_view(), name='recommend')
 ]

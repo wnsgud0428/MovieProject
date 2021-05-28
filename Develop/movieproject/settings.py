@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users.apps.UsersConfig',
     'movies.apps.MoviesConfig',
-    'evaluates.apps.EvaluatesConfig'
+    'evaluates.apps.EvaluatesConfig',
+    'recommends.apps.RecommendsConfig'
 ]
 
 MIDDLEWARE = [
@@ -123,4 +124,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+STATICFILES_DIRS = [
+    BASE_DIR, 'static',
+]
 AUTH_USER_MODEL = 'users.User'

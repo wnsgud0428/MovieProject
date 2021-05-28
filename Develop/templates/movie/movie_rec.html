@@ -1,0 +1,31 @@
+
+{% extends "home.html" %}
+{% block content %}
+
+<h4 class="text-center mt-5 mb-5">
+ 추천 영화를 보여드려요.
+</h4>
+
+<p class="text-center text-muted">
+{% if eval is None %}
+    영화를 먼저 평가해주세요.
+
+    <a href="{% url "movies:evaluate" %}"> 평가 하러가기 </a>
+{% else %}
+    {{eval.user}}님은 [{{eval.keyword}}]를 좋아하시네요.
+
+    <div>
+    {% for rec in recommend %}
+    <div class ="text-center mb-2 text-dark">
+        {{rec.title}}
+    </div>
+    {% endfor %}
+
+    </div>
+{% endif %}
+</p>
+
+
+
+
+{% endblock %}

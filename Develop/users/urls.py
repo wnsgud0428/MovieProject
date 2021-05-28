@@ -22,5 +22,5 @@ from . import views as user_view
 app_name = "users"
 
 urlpatterns = [
-    path('hi/', user_view.HomeView.as_view(), name="home")
+
 ]
