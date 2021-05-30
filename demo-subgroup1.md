@@ -33,7 +33,7 @@
 
 Demo 영상
 
-https://user-images.githubusercontent.com/33653264/120109749-c4c5e400-c1a5-11eb-8a40-c4003e1a18e5.mp4
+![bandicam 2021-05-31 00-07-05-434](https://user-images.githubusercontent.com/33653264/120109778-dc04d180-c1a5-11eb-93e7-438370fa2280.gif)
 ---
 
 
