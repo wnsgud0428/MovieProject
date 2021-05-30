@@ -33,6 +33,7 @@
 
 Demo 영상
 
-![image](https://user-images.githubusercontent.com/33653264/120109471-90055d00-c1a4-11eb-964b-cd0f7a2dc323.png)
+![image](https://user-images.githubusercontent.com/33653264/120109616-1f127500-c1a5-11eb-9e3d-5c3f69aeb66d.gif)
+---
 
 
