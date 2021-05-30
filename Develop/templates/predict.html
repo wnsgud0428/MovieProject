@@ -3,7 +3,7 @@
 {% block content %}
 
     <h4 class="text-center mt-5">
-        영화를 예측해드려요.
+        영화 흥행 여부를 예측해드려요.
     </h4>
 
     <form action="{% url "movies:predict" %}" method="post" enctype="multipart/form-data">
@@ -20,3 +20,4 @@
     </form>
 
 {% endblock %}
+    

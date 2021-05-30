@@ -6,6 +6,7 @@ class Actor(models.Model):
     name = models.CharField(max_length=20, blank=False)
     weight = models.CharField(max_length=10, blank=False)
 
+
 class Director(models.Model):
     name = models.CharField(max_length=20, blank=False)
     weight = models.CharField(max_length=10, blank=False)
