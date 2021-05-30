@@ -17,18 +17,18 @@
 
 회원가입 창에서는 (1) 새로운 user 정보를 입력하여 회원가입을 하거나 (2) 다시 로그인 화면으로 돌아갈 수 있습니다.
 
-![image](https://user-images.githubusercontent.com/33653264/120109047-b75b2a80-c1a2-11eb-8912-968272e504d7.png)
+![image](https://user-images.githubusercontent.com/33653264/120109812-022a7180-c1a6-11eb-8368-f1770089ad81.png)
 ---
 
 회원가입을 하게 되면 해당 user정보로 로그인 되고 user name과 사용할 수 있는 기능들이화면에 표시됩니다.
 (로그아웃을 다시 누르면 로그인 전 상태로 돌아가게 됩니다.)
 
-![image](https://user-images.githubusercontent.com/33653264/120109159-381a2680-c1a3-11eb-8e6b-3bc379887ff5.png)
+![image](https://user-images.githubusercontent.com/33653264/120109819-08205280-c1a6-11eb-843b-781c76e77e6d.png)
 ---
 
 마지막으로 관리자 화면에서는 moving에 가입된 모든 user들을 확인 할 수 있습니다.
 
-![image](https://user-images.githubusercontent.com/33653264/120109266-a0690800-c1a3-11eb-892e-115a6efee8ca.png)
+![image](https://user-images.githubusercontent.com/33653264/120109825-0ce50680-c1a6-11eb-83d6-9dcc4ebdfd66.png)
 ---
 
 Demo 영상
