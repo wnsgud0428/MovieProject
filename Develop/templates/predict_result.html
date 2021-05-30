@@ -1,5 +1,5 @@
 {% extends 'home.html' %}
-
+{% load static %}
 {% block content %}
 
     <h4 class="text-center mt-5">
@@ -7,15 +7,25 @@
     </h4>
 
     {% if decision_value == 4 %}
-        <img src="/static/img/superhit.png"></img>
-        <div class="text-center mt-5 mb-5">super hit</div>
-
+    <div class="text-center mt-5">
+        <img src="{% static 'img/superhit.jpg' %}"></img>
+        <h4 class="text-center mt-3 mb-5">super hit</h4>
+    </div>
     {% elif decision_value == 3 %}
-         <div class="text-center mt-5 mb-5">hit</div>
+    <div class="text-center mt-5">
+        <img src="{% static 'img/hit.jpg' %}"></img>
+        <h4 class="text-center mt-3 mb-5">hit</h4>
+    </div>
     {% elif decision_value == 2 %}
-         <div class="text-center mt-5 mb-5">soso</div>        
+    <div class="text-center mt-5">
+        <img src="{% static 'img/soso.jpg' %}"></img>
+        <h4 class="text-center mt-3 mb-5">soso</h4>
+    </div>     
     {% elif decision_value == 1 %}
-         <div class="text-center mt-5 mb-5">poor</div>
+    <div class="text-center mt-5">
+        <img src="{% static 'img/poor.jpg' %}"></img>
+        <h4 class="text-center mt-3 mb-5">poor</h4>
+    </div>
     {% endif %}
 
 {% endblock %}

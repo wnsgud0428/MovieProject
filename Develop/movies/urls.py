@@ -19,10 +19,11 @@ from django.urls import path, include
 from django.conf.urls import url
 from django.conf import settings
 from . import views as movie_view
-
+from django.conf.urls.static import static
 app_name = "movies"
 
 urlpatterns = [
     path('', movie_view.HomeView.as_view(), name="home"),
     path('predict/', movie_view.PredictView.as_view(), name="predict")
 ]
+
