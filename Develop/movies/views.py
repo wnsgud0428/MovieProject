@@ -64,19 +64,58 @@ class PredictView(FormView):
             else:
                 return 1
 
-        genreDB = models.Genre.objects.get(name=genre)
-        DirectorDB = models.Director.objects.get(name=director)
-        Actor1DB = models.Actor.objects.get(name=actor1)
-        Actor2DB = models.Actor.objects.get(name=actor2)
-        Actor3DB = models.Actor.objects.get(name=actor3)
+        try:
+            genreDB = models.Genre.objects.get(name=genre)
+        except models.Genre.DoesNotExist:
+            genreDB = None
+
+        try:
+            DirectorDB = models.Director.objects.get(name=director)
+        except models.Director.DoesNotExist:
+            DirectorDB = None
+        
+        try:
+            Actor1DB = models.Actor.objects.get(name=actor1)
+        except models.Actor.DoesNotExist:
+            Actor1DB = None
+        
+        try:
+            Actor2DB = models.Actor.objects.get(name=actor2)
+        except models.Actor.DoesNotExist:
+            Actor2DB = None
+        
+        try:
+            Actor3DB = models.Actor.objects.get(name=actor3)
+        except models.Actor.DoesNotExist:
+            Actor3DB = None
         
         total_weight = 0
         
-        total_weight += weight_func(genreDB.weight)
-        total_weight += weight_func(DirectorDB.weight)
-        total_weight += weight_func(Actor1DB.weight)
-        total_weight += weight_func(Actor2DB.weight)
-        total_weight += weight_func(Actor3DB.weight)
+        if genreDB is not None:
+            total_weight += weight_func(genreDB.weight)
+
+        if DirectorDB is not None:
+            total_weight += weight_func(DirectorDB.weight)
+
+        if Actor1DB is not None:
+            total_weight += weight_func(Actor1DB.weight)
+
+
+        if Actor2DB is not None:
+            total_weight += weight_func(Actor2DB.weight)
+        else:
+            if Actor1DB is not None:
+                total_weight += weight_func(Actor1DB.weight)
+
+
+        if Actor3DB is not None:
+            total_weight += weight_func(Actor3DB.weight)
+        else:
+            if Actor1DB is not None:
+                total_weight += weight_func(Actor1DB.weight)
+
+
+            
         total_weight += budget_func(budget)
         
         decision_value = predict_decision(total_weight)
