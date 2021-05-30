@@ -1,0 +1,22 @@
+{% extends 'home.html' %}
+
+{% block content %}
+
+    <h4 class="text-center mt-5">
+        영화를 예측해드려요.
+    </h4>
+
+    <form action="{% url "movies:predict" %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {% for form in forms %}
+
+            <div class="text-center mt-5">
+                {{form.label}}: {{form}}
+            </div>
+        {% endfor %}
+        <div class="text-center mb-5 mt-5">
+            <input type="submit" class="btn border border-black" value="제출">
+        </div>
+    </form>
+
+{% endblock %}

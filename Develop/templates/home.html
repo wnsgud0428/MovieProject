@@ -1,6 +1,52 @@
-안녕하세요!
+{% load static %}
+<!doctype html>
+<html lang="ko">
 
-{{request.user}}
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+    <!-- pybo CSS -->
+    <title>Moving</title>
+</head>
 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <a class="navbar-brand" href="{% url "movies:home" %}">
+            Moving
+        </a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">ㅇㅇ</span>
+            
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+        
+                </li>
+            </ul>
+        </div>
+    </nav> 
+    <!-- 기본 템플릿 안에 삽입될 내용 Start -->
+    {% block content %}
+    <div class="text-center mt-5 mb-5">
+        <p>
+            <a class="text-center" href="">영화 평가</a>
+        </p>
 
-{{users.user}}
+        <p>
+            <a class="" href="">영화 추천</a>
+        </p>
+        <p>
+            <a class="" href="{% url "movies:predict" %}">영화 예측</a>
+        </p>
+    </div>
+    {% endblock %}
+    <!-- 기본 템플릿 안에 삽입될 내용 End -->
+
+</body>
+
+</html>
