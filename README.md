@@ -54,8 +54,8 @@
 
 <a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/Last_checkpoint/developExplain">- Go to develop explain</a>
 
+<a href="https://github.com/wnsgud0428/MovieProject/tree/main/Develop">- Go to develop Code</a>
 
-- 서브 그룹 별 코드는 서브 그룹 별 브랜치에서 확인할 수 있습니다.
 
 
 ---
