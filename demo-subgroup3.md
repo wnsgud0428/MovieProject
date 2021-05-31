@@ -21,6 +21,7 @@ https://www.kaggle.com/therealsampat/predict-movie-success-rate?select=movie_suc
 1. 영화 예측 메뉴 선택
 
 2. 제작 예정 영화 정보 입력
+   단, DB에 저장된 데이터(배우, 감독, 장르)와 일치하여야 정확도 계산에 도움이 된다.
 
 3. 영화 성공 예측 결과 확인
 
