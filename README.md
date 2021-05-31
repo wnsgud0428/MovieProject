@@ -46,12 +46,17 @@
 <a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/2nd_checkpoint/ClassDiagram">- Go to Class Digram</a>
 
 
-### <a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/Last_checkpoint">[마지막 체크 포인트 관련 문서]</a>
+### <a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/Last_checkpoint/developExplain">[마지막 체크 포인트 관련 문서]</a>
 
 ### 1. 개발 관련 설명
-- 코드 실행 방법 설명
-- 
-### 서브 그룹 별 코드는 
+
+<a href="https://github.com/wnsgud0428/MovieProject/blob/main/Documents/Last_checkpoint/developExplain/howToExcute.md">- How to run our code</a>
+
+<a href="https://github.com/wnsgud0428/MovieProject/tree/main/Documents/Last_checkpoint/developExplain">- Go to develop explain</a>
+
+
+- 서브 그룹 별 코드는 서브 그룹 별 브랜치에서 확인할 수 있습니다.
+
 
 ---
 ## 팀 소개  
@@ -81,6 +86,8 @@
 10. 5월 10일 (월) 각자 Sequence Diagram에 대해 feedback을 주고받음, 다음 모임에 각자 맡은 class diagram을 완성해오기로 함. (Online)
 11. 5월 12일 (수) 각자 만들어온 class diagram을 서로 피드백함. (Online)
 12. 5월 14일 (금) 체크포인트 2 마무리, Sequence Diagram, Class Diagram 최종 업로드. (Online)
+13. ~ 5월 31일 각 서브 그룹 별 개발 진행.
+14. 5월 31일 (월) 개발 문서 제작 및 정리.
 
 
 ---

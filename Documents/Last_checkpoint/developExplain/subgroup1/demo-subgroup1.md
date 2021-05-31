@@ -1,8 +1,25 @@
-# subgroup1 DEMO
-```
-- subgroup1은 로그인, 회원가입 시스템입니다.
-- 사용자가 아이디, 이메일, 비밀번호를 입력하면 회원가입이 됩니다.
-```  
+# Subgroup1 Explain
+- Subgroup1은 로그인 및 화원가입 시스템 입니다.
+- 사용자가 회원가입때 등록한 아이디, 이메일과 비밀번호를 입력하면 사이트에 로그인됩니다.
+
+## 클래스 다이어그램과의 구조 비교
+
+1. information checker & controller(class diagram)
+
+- information checker : Django.contrib.auth의 클래스 views 안에 있는 as_view() 함수를 통해 사용자가 입력한 아이디와 비밀번호를 db에 있는 전체 사용자의 아이디와 비밀번호와 대조하여 일치하는 정보가 있으면 사용자의 로그인을 허용하고 그렇지 않으면 접근을 제한한다.
+
+2. user data storage
+  
+- 현재까지 회원가입한 사용자의 아이디와 비밀번호가 db.splite3 파일에 저장되어있다.
+  
+3. pageMaker
+
+- 로그인과 회원가입을 하기 위한 페이지를 rendering한다.
+
+
+전체적으로 클래스 다이어그램과 일치하는 코드 구조를 제작하였습니다.
+
+
 ## 사용예시
   
 시작 페이지로 로그인하지 않았을때는 아무 기능도 사용할 수 없습니다.
