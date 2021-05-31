@@ -45,14 +45,15 @@ cd develop/subgroup1_dev
 ```
 
 ## 4. Install Requirement 
+- Enter your python version
 ```
-pipenv install
+pipenv --python3.9 install
 ```
 
 ## 5. Activate Virtual Environment
-
+- Enter your python version
 ```
-pipenv shell
+pipenv --python3.9 shell
 ```
 
 ## 6. Run Server
