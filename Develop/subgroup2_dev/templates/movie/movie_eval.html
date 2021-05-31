@@ -1,0 +1,39 @@
+{% extends "home.html" %}
+
+{% block content %}
+<h4 class="text-center mb-5 mt-5">
+10가지 영화를 평가해주세요.
+</h4>
+
+
+
+<form action="{% url "movies:evaluate" %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% for movie in movies %}
+        <div class="text-center">
+            <div class="mb-3">
+
+                {{movie.title}}
+
+                <input type="hidden" value={{movie.id}} name="id"/>
+                <div>
+                    {{form}}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    <div class="text-center mb-5">
+        <input type="submit" class="btn border border-black" value="다 했어요.">
+    </div>
+</form>
+
+<p class="text-center">
+    {% if eval is not None %}
+        <a href="{% url "movies:recommend" %}">
+        추천 영화를 보여드릴까요?
+        </a>
+    {% endif %}
+</p>
+
+
+{% endblock %}
