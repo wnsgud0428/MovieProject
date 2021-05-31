@@ -44,16 +44,20 @@
 1. 영화 예측 메뉴 선택
 ![image](https://user-images.githubusercontent.com/33649931/120145781-0ba3f000-c21f-11eb-882e-dcbe3e82a713.png)
 
+---
 2. 제작 예정 영화 정보 입력
    단, DB에 저장된 데이터(배우, 감독, 장르)와 일치하여야 정확도 계산에 도움이 된다.
 ![2](https://user-images.githubusercontent.com/33649931/120146156-9dabf880-c21f-11eb-90c4-d29e07ade116.JPG)
 
+---
 3. 영화 성공 예측 결과 확인
 ![3](https://user-images.githubusercontent.com/33649931/120146176-a69cca00-c21f-11eb-9c6b-9a417445406b.JPG)
 
+---
 4. 데모 영상
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/33649931/120144708-65a3b600-c21d-11eb-9c76-1c54981ff20e.gif)
 
+---
 ## 데이터 출처
 
  - 오픈 api 데이터를 사용하려 했으나 누락된 부분이 너무 많아 불가피하게 https://www.kaggle.com 의 데이터를 사용했습니다.
