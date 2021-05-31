@@ -6,9 +6,9 @@
 
 ## 0-1. Tech Stack
 
-- Python
-- Django Framework
-- Html, CSS
+- Python 3.9
+- Django Framework 2.2.5
+- Html5, bootstrap CSS
 
 
 ## 0-2. Subgroup Explain
