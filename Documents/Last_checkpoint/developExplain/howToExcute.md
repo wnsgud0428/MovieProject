@@ -12,9 +12,13 @@
 
 
 ## 0-2. Subgroup Explain
-- 각 서브 그룹 별 Source Code는 각각의 브랜치 내의 develop폴더에서 관리하고 있습니다.(ex: 서브 그룹 1 => subgroup1 branch)
+- 각 서브 그룹 별 Source Code의 경로는 다음과 같습니다.
+
+MovieProject/Develop/Subgroup#num_dev
   
-- 각 서브 그룹 별 코드 설명 및 마지막 체크포인트 관련 문서들은 main 브랜치에서 관리중입니다.
+- 각 서브 그룹 별 코드 설명 및 마지막 체크포인트 관련 문서 경로는 다음과 같습니다.
+
+MovieProject/Documents/Last_checkpoint
 
 
  
@@ -28,35 +32,30 @@
 git clone https://github.com/wnsgud0428/MovieProject.git
 ```
 
-## 2. Pull the branch you want to execute. 
-```
-git pull origin subgroup1(or subgroup2 or subgroup3)
-```
 
-
-## 3. Install Virtual Environment
+## 2. Install Virtual Environment
 
 ```
  pip install pipenv
 ```
 
-## 4. Directory Change (to develop)
+## 3. Directory Change (to develop)
 ```
-cd develop
+cd develop/subgroup1_dev
 ```
 
-## 5. Install Requirement 
+## 4. Install Requirement 
 ```
 pipenv install
 ```
 
-## 6. Activate Virtual Environment
+## 5. Activate Virtual Environment
 
 ```
 pipenv shell
 ```
 
-## 7. Run Server
+## 6. Run Server
 
 ```
 python manage.py runserver
