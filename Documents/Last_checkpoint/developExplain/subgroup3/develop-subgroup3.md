@@ -41,20 +41,20 @@
 - 간단한 영화 성공 예측 웹 페이지이지만, DB - 웹(Django) - 파이썬 코드 로 이어지는 상호작용을 깨닫고 전체적인 개발의 한 과정을 경험한 것 같아 뜻깊었습니다. 또한 요구분석 단계부터 실제 구현까지 소포트웨어 공학의 큰 틀을 이해한 것 같아 귀중한 경험이였습니다.
 
 ## 사용예시
-1. 영화 예측 메뉴 선택
+1. 영화 예측 메뉴 선택  
 ![image](https://user-images.githubusercontent.com/33649931/120145781-0ba3f000-c21f-11eb-882e-dcbe3e82a713.png)
 
 ---
 2. 제작 예정 영화 정보 입력
-   단, DB에 저장된 데이터(배우, 감독, 장르)와 일치하여야 정확도 계산에 도움이 된다.
+   단, DB에 저장된 데이터(배우, 감독, 장르)와 일치하여야 정확도 계산에 도움이 된다.  
 ![2](https://user-images.githubusercontent.com/33649931/120146156-9dabf880-c21f-11eb-90c4-d29e07ade116.JPG)
 
 ---
-3. 영화 성공 예측 결과 확인
+3. 영화 성공 예측 결과 확인  
 ![3](https://user-images.githubusercontent.com/33649931/120146176-a69cca00-c21f-11eb-9c6b-9a417445406b.JPG)
 
 ---
-4. 데모 영상
+4. 데모 영상  
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/33649931/120144708-65a3b600-c21d-11eb-9c76-1c54981ff20e.gif)
 
 ---
