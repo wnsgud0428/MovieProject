@@ -24,7 +24,7 @@ MovieProject/Documents/Last_checkpoint
  
 ---
 
-### 아래와 같은 공통적인 절차를 통해 각 브랜치에서 서브그룹 code를 독립적으로 실행할 수 있습니다.
+### 아래와 같은 공통적인 절차를 통해 각 서브그룹 code를 독립적으로 실행할 수 있습니다.
 
 ---
 ## 1. Git clone
